@@ -357,15 +357,7 @@ plt.xticks(rotation=45)
 plt.grid(axis='y')
 plt.show()
 
-# import seaborn as sns
 
-# # Convert metric scores into a DataFrame
-# metrics_df = pd.DataFrame({"Precision": precision_scores, "Recall": recall_scores, "F1-Score": f1_scores})
-
-# # Pairplot to visualize pairwise relationships between metrics
-# sns.pairplot(metrics_df)
-# plt.suptitle('Pairplot of Metrics', y=1.02)
-# # plt.show()
 
 # Histogram to visualize the distribution of each metric
 plt.figure(figsize=(10, 6))
